@@ -1,9 +1,17 @@
 # Web-Scrapping-Data-Analysis
-I used two files to gather data:
-- twitter-archive-enhanced.csv (contained @dog_rates twitter incomplete archive)
-- image_predictions.tsv (contained dog breed predictions from a neural network)
+## Project Description
+I'm using Twitter's API to scrape data from their platform which I will use to analyze an account called @dog_rates
 
-I scrapped the remaining information off of twitter's API and combined it into:
-- tweet_json.txt (contained tweet id, retweet count, favourite count)
+## Project Files
+> * twitter-archive-enhanced.csv - contained @dog_rates twitter incomplete archive <br>
+> * image_predictions.tsv - contained dog breed predictions from a neural network <br>
+> * tweet_json.txt - contained tweet id, retweet count, favourite count <br>
+> * wrangle_report.ipynb -  Identifies areas that need to be addressed <br>
+> * wrangle_act.ipynb - Fixes all the problems outlined in wrangle_report.ipynb <br>
+> * act_report.ipynb - My final condensed conlcusions from the data analysis <br>
 
-You can follow my code in the file wrangle_act.ipynb, my thought process in wrangle_report.ipynb, and my conclusions in act_report.ipynb
+## Conclusion
+* I discovered the average rating on we rate dogs to be 11.45/10. The distribution is also evidently left skewed. This is not good news for all the dogs out there who are being underrated. <br>
+* If you want to help the dogs get the recognition they deserve, retweeting looks to be linearly correlated to favourite counts. <br>
+* If I had more time I would make a multiple liner regression model to determine which variables affect each other the most. This way we can learn if our favourites are really helping the dogs get the ratings we need them to.
+
