@@ -1,6 +1,6 @@
 # Web-Scrapping-Data-Analysis
 ## Project Description
-I'm using Twitter's API to scrape data from their platform which I will use to analyze an account called @dog_rates
+I'm used Twitter's API to scrape data from their platform which I will use to analyze an account called @dog_rates
 
 ## Project Files
 > * twitter-archive-enhanced.csv - contained @dog_rates twitter incomplete archive <br>
