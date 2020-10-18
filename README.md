@@ -8,7 +8,6 @@ I'm used Twitter's API to scrape data from their platform which I will use to an
 > * tweet_json.txt - contained tweet id, retweet count, favourite count <br>
 > * wrangle_report.ipynb -  Identifies areas that need to be addressed <br>
 > * wrangle_act.ipynb - Fixes all the problems outlined in wrangle_report.ipynb <br>
-> * act_report.ipynb - My final condensed conlcusions from the data analysis <br>
 
 ## Conclusion
 * I discovered the average rating on we rate dogs to be 11.45/10. The distribution is also evidently left skewed. This is not good news for all the dogs out there who are being underrated. <br>
